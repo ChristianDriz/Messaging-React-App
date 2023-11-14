@@ -12,6 +12,10 @@ const router = createBrowserRouter([
         element: <Navigate to="/react-messaging-app/sign-in"/>,
     },  
     {
+        path: "/react-messaging-app",
+        element: <Navigate to="/react-messaging-app/sign-in"/>,
+    },  
+    {
         path: "/react-messaging-app/sign-in",
         element: <Signin/>,
     },
