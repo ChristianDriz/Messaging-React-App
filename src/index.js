@@ -9,18 +9,18 @@ import './index.css';
 const router = createBrowserRouter([
     {
         path: "/Messaging-React-App",
-        element: <Navigate to="/react-messaging-app/sign-in"/>,
+        element: <Navigate to="/react-messaging-app/asd/sign-in"/>,
     },  
     {
-        path: "/react-messaging-app/sign-in",
+        path: "/react-messaging-app/asd/sign-in",
         element: <Signin/>,
     },
     {
-        path: "/react-messaging-app/sign-up",
+        path: "/react-messaging-app/asd/sign-up",
         element: <Signup/>
     },
     {
-        path: "/react-messaging-app/messaging",
+        path: "/react-messaging-app/asd/messaging",
         element: <Messaging/>
     }
 ])

@@ -36,7 +36,7 @@ function Signin() {
         const pss = checkpassword(password);
 
         if (em && pss){
-            navigate('/react-messaging-app/messaging');
+            navigate('/react-messaging-app/asd/messaging');
         }
     }
 
@@ -112,7 +112,7 @@ function Signin() {
                     <button className='w-full bg-[#8059D2] text-white rounded-xl my-8 h-12 font-medium hover:bg-[#7c53d3]'>
                         Sign in
                     </button>
-                    <p className='text-center mb-4'>Don't have an account?<Link to={'/react-messaging-app/sign-up'} className='ml-2 text-blue-600'>Sign up here</Link></p>
+                    <p className='text-center mb-4'>Don't have an account?<Link to={'/react-messaging-app/asd/sign-up'} className='ml-2 text-blue-600'>Sign up here</Link></p>
                 </form>
             </div>
         </div>
