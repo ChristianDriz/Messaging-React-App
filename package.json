@@ -2,7 +2,7 @@
   "name": "messaging",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://christiandriz.github.io/messaging",
+  "homepage": "https://christiandriz.github.io/Messaging-React-App",
   "dependencies": {
     "@headlessui/react": "^1.7.17",
     "@sweetalert2/theme-dark": "^5.0.15",
