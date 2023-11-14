@@ -1,30 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom';
+import { createHashRouter, RouterProvider, Navigate } from 'react-router-dom';
 import Signin from './pages/sign-in';
 import Signup from './pages/sign-up';
 import Messaging from './pages/messaging';
 import './index.css';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
     {
-        path: "/Messaging-React-App",
-        element: <Navigate to="/react-messaging-app/sign-in"/>,
+        path: "/",
+        element: <Navigate to="/sign-in"/>,
     },  
     {
-        path: "/react-messaging-app",
-        element: <Navigate to="/react-messaging-app/sign-in"/>,
-    },  
-    {
-        path: "/react-messaging-app/sign-in",
+        path: "/sign-in",
         element: <Signin/>,
     },
     {
-        path: "/react-messaging-app/sign-up",
+        path: "/sign-up",
         element: <Signup/>
     },
     {
-        path: "/react-messaging-app/messaging",
+        path: "/messaging",
         element: <Messaging/>
     }
 ])

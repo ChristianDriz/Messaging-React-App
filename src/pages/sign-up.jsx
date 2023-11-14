@@ -64,7 +64,7 @@ function Signup() {
                 text: 'Confirmation has been sent to your email.',
                 icon: 'success',
             }).then(() => {
-                navigate('/react-messaging-app/sign-in');
+                navigate('/sign-in');
             })
         }
     }
@@ -276,7 +276,7 @@ function Signup() {
                     <button className='w-full bg-[#8059D2] text-white rounded-xl my-8 h-12 font-medium hover:bg-[#7c53d3]'>
                         Sign up
                     </button>
-                    <p className='text-center mb-4'>Don't have an account?<Link to={'/react-messaging-app/sign-in'} className='ml-2 text-blue-600'>Sign in here</Link></p>
+                    <p className='text-center mb-4'>Don't have an account?<Link to={'/sign-in'} className='ml-2 text-blue-600'>Sign in here</Link></p>
                 </form>
             </div>
         </div>
