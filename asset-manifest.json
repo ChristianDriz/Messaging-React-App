@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Messaging-React-App/static/css/main.cca6bdba.css",
-    "main.js": "/Messaging-React-App/static/js/main.ae33395b.js",
+    "main.js": "/Messaging-React-App/static/js/main.d30ad20b.js",
     "static/media/Saly-16.png": "/Messaging-React-App/static/media/Saly-16.3df70e95eac8830a502e.png",
     "static/media/JDS00024.jpg": "/Messaging-React-App/static/media/JDS00024.871766f8e1b3ec4b8833.jpg",
     "static/media/Saly-10.png": "/Messaging-React-App/static/media/Saly-10.975fd91aef0aeed50cde.png",
     "static/media/default-img.jpg": "/Messaging-React-App/static/media/default-img.55a9b365d18a2a7baa86.jpg",
     "index.html": "/Messaging-React-App/index.html",
     "main.cca6bdba.css.map": "/Messaging-React-App/static/css/main.cca6bdba.css.map",
-    "main.ae33395b.js.map": "/Messaging-React-App/static/js/main.ae33395b.js.map"
+    "main.d30ad20b.js.map": "/Messaging-React-App/static/js/main.d30ad20b.js.map"
   },
   "entrypoints": [
     "static/css/main.cca6bdba.css",
-    "static/js/main.ae33395b.js"
+    "static/js/main.d30ad20b.js"
   ]
 }
