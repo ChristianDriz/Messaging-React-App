@@ -84,7 +84,7 @@ function Dropdown() {
                         </a>
                     </Menu.Item>
                     <Menu.Item>
-                        <Link to="/Messaging-React-App/sign-in" className='flex items-center hover:bg-blue-50 px-4 py-1.5 rounded-md dark:hover:bg-zinc-700'>
+                        <Link to="/react-messaging-app/sign-in" className='flex items-center hover:bg-blue-50 px-4 py-1.5 rounded-md dark:hover:bg-zinc-700'>
                             <ion-icon name="log-out-outline"></ion-icon>
                             <p className="ml-3">Log out</p>
                         </Link>
