@@ -8,8 +8,13 @@ import './index.css';
 
 const router = createBrowserRouter([
     {
+<<<<<<< HEAD
         path: "/Messaging-React-App",
         element: <Navigate to="/Messaging-React-App/sign-in"/>,
+=======
+        path: "/",
+        element: <Navigate to="/sign-in"/>,
+>>>>>>> 8e55c637b8f93e757415888e26037e9a3aab32ba
     },  
     {
         path: "/Messaging-React-App/sign-in",
